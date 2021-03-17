@@ -1,0 +1,45 @@
+<html>
+<head>
+<title> Better Validation Form </title>
+<style type="text/css">
+tr, td 
+{
+padding: 10px;
+border-bottom: 3px solid black;
+} 
+label
+{
+float: right;
+}
+table{
+border-bottom: 2px solid black;
+}
+</style>
+</head>
+<body>
+<form>
+<table align="center" border="2px">
+<tr>
+<th colspan="2">Registration</th>
+</tr>
+<tr>
+<td><label>Name:</label></td>
+<td><input type="text" placeholder="Enter Name"/></td>
+</tr>
+<tr>
+<td><label>Gender:</label></td>
+<td><input type="radio" name="gender"/>male<br><input type="radio" name="gender"/>female<br><input type="radio" name="gender"/>others</td>
+</tr>
+<tr>
+<td><label>Courses:</label></td>
+<td><select>
+<option>Java</option><option>C++</option><option>Web D</option><option>Python</option>
+</select></td>
+</tr>
+
+</table>
+<br><br><br>
+<center><input type="submit" value="submit" align="center"/><input type="reset" value="reset"/></center>
+</form>
+</body>
+</html>
